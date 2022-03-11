@@ -1,0 +1,49 @@
+/*!
+    \qmltype FloatingPanel
+    \inherits Control
+    \inqmlmodule org.deepin.dtk
+    \ingroup QML_TYPES
+    \brief 提供一种浮动效果的背景面板
+
+    FloatingPanel 是浮动消息（FloatingMessage）、浮动工具栏、内嵌菜单（Menu）等等控件的通用背景。
+    FloatingPanel 自带浮动的效果，能够使其内部控件呈现出浮动在应用内部的效果。
+
+    例如一下效果：
+
+    \image images/
+
+    FloatingPanel 支持颜色和效果的控制，即它能够在外部控制背景颜色、边框颜色、圆角大小和模糊系数等等。
+ */
+
+/*!
+    \qmlproperty Palette org.deepin.dtk::FloatingPanel::backgroundColor
+
+    \c backgroundColor 属性用于控制背景颜色。
+    \sa Palette
+ */
+
+/*!
+    \qmlproperty Palette org.deepin.dtk::FloatingPanel::dropShadowColor
+
+    \c dropShadowColor 属性用于控制阴影部分的颜色。
+    \sa Palette
+ */
+
+/*!
+    \qmlproperty Palette org.deepin.dtk::FloatingPanel::borderColor
+
+    \c borderColor 属性用于控制边框的颜色。
+    \sa Palette
+ */
+
+/*!
+    \qmlproperty Palette org.deepin.dtk::FloatingPanel::radius
+
+    \c radius 属性控制 FloatingPanel 背景的圆角大小，默认情况下为该值为 14。
+ */
+
+/*!
+    \qmlproperty Palette org.deepin.dtk::FloatingPanel::blurRadius
+
+    \c blurRadius 属性控制 FloatingPanel 的模糊系数，默认情况下为该值为 14。
+ */
